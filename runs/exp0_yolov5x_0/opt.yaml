@@ -1,0 +1,25 @@
+cfg: ./configyolo5/yolov5x.yaml
+data: ./configyolo5/wheat0.yaml
+hyp: ''
+epochs: 150
+batch_size: 4
+img_size:
+- 1024
+- 1024
+rect: false
+resume: false
+nosave: false
+notest: false
+noautoanchor: false
+evolve: false
+bucket: ''
+cache_images: false
+weights: ./best_yolov5x_v2_0.pt
+name: yolov5x_0
+device: 0,1
+multi_scale: false
+single_cls: false
+sync_bn: false
+local_rank: -1
+total_batch_size: 4
+world_size: 1

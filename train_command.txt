@@ -1,0 +1,1 @@
+python train.py --img 1024 --batch 16 --epochs 100 --data ../input/configyolo5/wheat0.yaml --cfg ../input/configyolo5/yolov5x.yaml --name yolov5x_0
